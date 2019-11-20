@@ -23,9 +23,6 @@ public class FoodIncApplicationTests {
 	@MockBean
 	private FoodService foodService;
 
-	@Autowired
-	private FoodController retrieveFood;
-
 	@Test
 	public void testShouldGetPizza() {
 
